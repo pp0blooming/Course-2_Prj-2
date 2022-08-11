@@ -5,6 +5,9 @@ Course-2_Prj-1 Docker Jenkins Pipeline to Implement CI/CD Workflow
 ```
 #### Access key ID      AKIA2UKO5EL53FXMKRWY
 #### Secret access key  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 
+### Access user         katy4Course2Assessment2
+### Access key ID       AKIA2UKO5EL5ZU6EXCI3 
+### Secret access key   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
 #### Default region name    us-east-1 
 #### Default output format  json 
 ``` 

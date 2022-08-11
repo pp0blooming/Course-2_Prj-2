@@ -66,6 +66,12 @@ resource "aws_instance" "ubuntu" {
       host        = self.public_ip
     }
 
+    inline = [
+      "sudo apt update && sudo apt upgrade ",
+      "sudo apt install -y python2",
+      "sudo apt install -y python3",
+    ]
+
     # inline = [
     #   "sudo apt update && sudo apt upgrade ",
     #   "sudo apt install -y python2",
